@@ -1,0 +1,38 @@
+//functions - a function is a block of reusable code
+//main is an example of a function
+fun main(){
+    //empty
+    callMe()
+    multiply()
+    checkNum()
+
+}//end main
+
+fun callMe(){
+    println("This is a nice function")
+}//end call me
+
+fun multiply(){
+    val x =45
+    val y =89
+    val answer = x + y
+    println("The summation is $answer")
+}//end multiply
+
+//global variable is variable outside a function
+//global can e accessed by any other function
+val z = 40//this is a global variable
+
+
+fun checkNum(){
+    //below variable is inside a function it's called local variable
+    //local variable cannot be accessed outside this function
+    val x = 5
+    when{
+        x>0-> println("ITS POS")
+        x==0-> println("ITS ZERO")
+        x<0-> println("ITS NEG")
+        else -> println("Invalid")
+
+    }//ends when
+}//end checkNum
