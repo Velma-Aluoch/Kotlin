@@ -1,0 +1,33 @@
+fun main(){
+    divide()
+    subtract()
+    for (i in 1..10){
+        bmi(weight=50.0, height = i)}//parse arguments
+
+}//end
+
+//global variable
+val x = 45
+val y = 50
+
+fun divide(){
+    val answer = x/y
+    println("Your division $answer")
+}//end
+
+fun subtract(){
+    val x = 50
+    val answer = x-y
+    println ("Your subtraction is $answer")
+}//end
+
+//some functions can take parameters
+//when calling the function, you need to provide weight and height
+fun bmi(weight:Double, height:Int){
+    val bmi = weight/(height * height)
+    println("BMI is %.2f" .format(bmi))
+
+}//end bmi
+
+//1. create a function to find the area of a circle
+//2. Given 3 numbers find the largest or equal, the numbers should be parameters
