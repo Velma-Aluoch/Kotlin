@@ -1,0 +1,27 @@
+import java.util.*
+
+fun main(){
+    val scanner= Scanner(System.`in`)
+    println("Enter your marks:")
+    val marks:Double=scanner.nextDouble()
+    if (marks < 30){
+        println("You've failed")
+    }
+    else if (marks in 30..50){
+        println("Average")
+    }
+    else if (marks in 51..70){
+        println("Above average")
+    }
+    else if (marks in 71..80){
+        println("Very good")
+    }
+    else if (marks in 81..100){
+        println("Excellent")
+    }
+    else{
+        println("Invalid entry")
+    }
+
+
+}//end
