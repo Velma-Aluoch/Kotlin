@@ -1,0 +1,20 @@
+fun main(){
+    //Datatypes-Int, double, string, byte, char, long, float, short, boolean
+    val number1: Int=45; //An int is an whole number from -2.2billion to +2.2billion
+    //an int cannot hold 3billion
+    val number2: Double=45.5; //accepts number with decimals
+    val number3: Int=45;
+    val number4: Short=32000; //whole number without decimals and holds from -32k to +32k
+
+    var total: Double=0.0;
+    total=number1+number2+number3+number4
+    println("Your sum is $total") //use this
+    println("Your sum is "+total)
+    println("$total")
+    println(""+total)
+}
+
+//Todo create new kotlin files
+//Todo BMI Weight/height squared
+//Simpleinterest (prt/100)
+//area of a circle(PIRsquared)
