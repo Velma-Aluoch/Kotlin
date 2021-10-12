@@ -1,0 +1,31 @@
+fun main(){
+    //array is where one variable can store many value
+    val fruits = arrayOf("Apple", "Mango", "Passion", "Orange", "Watermelon")
+    //we count array items from zero
+    println(fruits[0] + "and" + fruits[1] + "and" + fruits[2])
+    //fruits[index]
+
+    val languages = arrayOf<String>("python", "HTML", "CSS", "kotlin", "Java")
+    println(languages[0] + "and" + languages[1] + "and" + languages[2])
+
+    val marks = arrayOf<Int>(45,78, 89, 45, 56, 12, 56,78)
+    println("The student scored" +marks[0])
+
+    //iterate array
+    for(fruit in fruits){
+        println(fruit)//prints each fruit at a time
+    if (fruit.toLowerCase()=="mango") {
+        break //the loops breaks when mango is reached
+    }
+        else{
+        continue
+    }
+
+    }//end if function
+
+
+
+
+
+
+}//end fun main
