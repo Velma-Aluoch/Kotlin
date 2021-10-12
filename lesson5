@@ -1,0 +1,59 @@
+fun main(){
+    //call our function
+    val fullname = combine("Allan","John")
+    println(fullname)
+    //main get back the full in variable
+
+    val money_kes=currency(money_usd=30.0, rate=110.5)
+    println ("The answer is $money_kes Ksh")
+
+    //call out the area of a circle
+    val circle_area=area(p=3.14, r=49.0)
+    println("The area of a circle = $circle_area m squared")
+
+    //call out si
+    val answer=si()
+    println("The solution is $answer")
+}//end fun main
+
+//with parameters and return
+fun combine(first:String, last:String): String{
+    val fullname: String ="$first $last"
+    return fullname //what type of string are we returning
+
+}//end combine
+
+
+//with parameters and return
+fun currency(money_usd:Double, rate:Double) :Double {
+    val money_kes = money_usd * rate
+    return money_kes
+
+}//end currency
+
+//create a function to find area of a circle
+//Use parameters and returns
+
+fun area(p:Double, r:Double) :Double{
+    val circle_area:Double=p*(r*r)
+    return circle_area
+
+}//end area
+
+//without parameters but with return
+fun si() :Double {
+    val p = 4500
+    val r = 1.5
+    val t = 24
+    val answer = p * r * t/100
+    return answer
+
+}//end si
+
+//to do
+//1. function with parameters and return type
+//2. function with no parameters and no return
+//3. function with parameters, no return
+//4. function without parameters and has return
+
+//practice with area triangle
