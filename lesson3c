@@ -1,0 +1,14 @@
+fun main(){
+    var count:Int=1
+    while (count<1000000){
+        println("Looping $count")
+        //code to loop goes here
+        val x: Int=45
+        val y: Int =56
+        val ans : Int = x+y
+        println("Answer i $ans")
+        
+        count++; //add 1
+    }// end while
+
+}//end fun main
