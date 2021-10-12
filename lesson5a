@@ -1,0 +1,50 @@
+import java.util.function.DoubleToLongFunction
+
+fun main (){
+    //calls out function1
+    val triangle_area=area1(b=26.0, h=53.4)
+    println("$triangle_area")
+
+    //calls out function2
+    area2()
+
+    //calls out function3
+    area3()
+
+    //Calls out function4
+    val area4=area4()
+    println("$area4")
+
+}
+
+//1. function with parameters and return type
+fun area1(b:Double, h:Double) : Double{
+    val triangle_area=b*h/2
+    return triangle_area
+
+}//end area1
+
+//2. function with no parameters and no return
+fun area2(){
+   val b:Int=26
+    val h:Int=53
+   val area2:Int= b*h/2
+       println("$area2")
+
+}//end area2
+
+//3. function with parameters, no return
+fun area3(b:Int=26, h:Int=53){
+   val area:Int=b*h/2
+    println("$area")
+
+}//ends area3
+
+//4. function without parameters and has return
+fun area4() :Double {
+    val base: Double = 26.0
+    val height: Double = 53.4
+    val area4: Double = base * height / 2
+    return area4
+
+}
