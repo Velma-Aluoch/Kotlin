@@ -1,0 +1,12 @@
+fun main(){
+    val student_name:String ="Brandon"
+    val student_age: Short= 45
+    val student_grade:String="B+"
+    val student_maths: Double=45.0
+    val student_eng: Double=78.0
+    val student_kis: Double=90.0
+
+    val total= student_maths+student_eng +student_kis
+    println("Name $student_name, and age $student_age grade is $student_grade")
+    println("Your final marks is $total")
+}
