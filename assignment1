@@ -1,0 +1,25 @@
+import java.util.*
+
+fun main(){
+    val scanner= Scanner(System.`in`)
+    println("Enter Distance")
+    val Distance:Double=scanner.nextDouble()
+
+    if (Distance in 0..100){
+        print("Pay 5.00/=")
+    }
+    else if (Distance in 101..500){
+        println("Pay 8.00/=")
+    }
+    else if (Distance in 501..999){
+        println("Pay 10.00/=")
+    }
+    else if (Distance >= 1000){
+        println("Pay 12.00/=")
+    }
+    else{
+        println("Enter distance using positive numbers")
+    }
+
+}//END
+
