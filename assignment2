@@ -1,0 +1,33 @@
+import java.util.*
+
+fun main(){
+    val scanner= Scanner(System.`in`)
+    println("Enter units")
+    val units:Double=scanner.nextDouble()
+
+   if (units < 50){
+       val pay1:Double=units*0.5;
+           println("Total amount $pay1")
+   }
+    else if(units in 50..150){
+       val pay2:Double= (units*0.5) +1*150
+       println("Total amount $pay2 ")
+   }
+    else if (units in 151..250){
+       val pay3: Double=(units*0.5)+(1*150)+(1.2*250)
+       println("Total amount $pay3")
+   }
+    else if (units > 250){
+       val pay4:Double= 1.5* 250
+       println("Total cost $pay4")
+   }
+    else{
+       println("null units")
+   }
+
+
+
+
+
+
+}//end fun main
