@@ -1,0 +1,28 @@
+import java.util.*
+
+fun main(){
+    //for loop - range approach
+    //for loop have a fixed number loops
+    for (count in 1..10000){
+        println("looping $count")
+        //your code goes here
+        val scanner = Scanner (System.`in`)
+        println("Your height in meters")
+        val h:Double=scanner.nextDouble()
+
+        println("Your weight in kgs")
+        val w:Double= scanner.nextDouble()
+        val ans=w/(h *h)
+        println("Answer= $ans")
+
+        if (ans <17.5){
+            break //breaks the loop
+        }
+        else {
+            continue //continue looping
+        }
+
+
+
+    }//end for
+}// end fun main
