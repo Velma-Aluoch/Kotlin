@@ -1,0 +1,12 @@
+fun main (){
+    //more data types
+    //long, string, char, float,boolean
+    val budget:Long=2000000000000000000 //Long takes more than an int
+    val grade:Char='C' //char stores only one letter and uses singl;e quoates
+    val name:String="Modcom" //a stream of characters
+    val paid:Boolean=true // takes trues or false
+    val latitude: Float=1.545487f // works with many decimal places
+    val example: Byte=125
+
+    println("testing $example, $latitude, $paid, $name, $grade, $budget")
+}
