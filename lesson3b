@@ -1,0 +1,20 @@
+fun main(){
+    val marks: Int =78
+    when(marks){
+        in 1..30->{
+            println("Failed")
+        }
+        in 31..50->{
+            println("Below average")
+        }
+        in 51..75->{
+            println("Average")
+        }
+        in 76..100->{
+            println("Above average")
+        }
+        else->{
+            println("Invalid Marks..use 1...100")
+        }//end else
+    }//end when
+}//end fun main
