@@ -1,0 +1,21 @@
+fun main(){
+    val a:Int=45
+
+    when{
+        a>10-> {
+            println("Your number is more than 10")
+        }//end
+        a==10-> {
+            println("Your number is equal to 10")
+        }//end
+        a<10-> {
+            println("Your number is less than 10")
+        }//end
+        else ->{
+            println("Your number is no <10, =10, >10")
+        }//end else
+
+
+    }//end when
+
+}//end fun main
